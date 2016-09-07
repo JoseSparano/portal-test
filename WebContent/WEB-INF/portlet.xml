@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" id="com.ibm.pragmapractice.PragmaPracticePortlet.b032d20075">
+	<portlet>
+		<portlet-name>PragmaPractice</portlet-name>
+		<display-name xml:lang="es">PragmaPractice</display-name>
+		<display-name>PragmaPractice</display-name>
+		<portlet-class>com.ibm.pragmapractice.PragmaPracticePortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>es</supported-locale>
+		<supported-locale>en</supported-locale>
+		<supported-locale>en_US</supported-locale>
+		<resource-bundle>com.ibm.pragmapractice.nl.PragmaPracticePortletResource</resource-bundle>
+		<portlet-info>
+			<title>PragmaPractice</title>
+			<short-title>PragmaPractice</short-title>
+			<keywords>PragmaPractice</keywords>
+		</portlet-info>
+	</portlet>
+	<portlet>
+		<portlet-name>FlightPriceTracker</portlet-name>
+		<display-name xml:lang="en-US">FlightPriceTracker</display-name>
+		<display-name xml:lang="es">FlightPriceTracker</display-name>
+		<display-name xml:lang="en">FlightPriceTracker</display-name>
+		<display-name>FlightPriceTracker</display-name>
+		<portlet-class>com.ibm.pragmapractice.FlightPriceTrackerPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>es</supported-locale>
+		<supported-locale>en_US</supported-locale>
+		<supported-locale>en</supported-locale>
+		<resource-bundle>com.ibm.pragmapractice.nl.FlightPriceTrackerPortletResource</resource-bundle>
+		<portlet-info>
+			<title>FlightPriceTracker</title>
+			<short-title>FlightPriceTracker</short-title>
+			<keywords>FlightPriceTracker</keywords>
+		</portlet-info>
+	</portlet>
+	<default-namespace>http://PragmaPractice/</default-namespace>
+</portlet-app>
